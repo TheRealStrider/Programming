@@ -10,6 +10,7 @@ int main() {
 
     float cornerOneSales[4];
     float cornerTwoSales[4];
+    int x = 0;
 
     return 0;
 }
