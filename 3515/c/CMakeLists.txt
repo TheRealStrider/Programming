@@ -2,8 +2,10 @@ cmake_minimum_required(VERSION 3.29)
 project(c C)
 
 set(CMAKE_C_STANDARD 23)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 
 add_executable(c main.c)
 add_executable(AHPA3 AHPA3/ahpa3.c)
 add_executable(MultiArray testing/multi-array.c)
 add_executable(AHPA4 AHPA4/ahpa4.c)
+add_executable(AHPA5 AHPA5/ahpa5.c)
