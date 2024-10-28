@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/starw/Documents/School/Programming/Programming/3515/c/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target c
 
@@ -49,11 +49,13 @@ cmake_ninja_workdir = C$:/Users/starw/Documents/School/Programming/Programming/3
 
 build cmake_object_order_depends_target_c: phony || .
 
-build CMakeFiles/c.dir/main.c.obj: C_COMPILER__c_unscanned_Debug C$:/Users/starw/Documents/School/Programming/Programming/3515/c/main.c || cmake_object_order_depends_target_c
+build CMakeFiles/c.dir/main.c.obj: C_COMPILER__c_unscanned_Debug C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/main.c || cmake_object_order_depends_target_c
   DEP_FILE = CMakeFiles\c.dir\main.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\c.dir
   OBJECT_FILE_DIR = CMakeFiles\c.dir
+  TARGET_COMPILE_PDB = CMakeFiles\c.dir\
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\c.pdb
 
 
 # =============================================================================
@@ -61,17 +63,18 @@ build CMakeFiles/c.dir/main.c.obj: C_COMPILER__c_unscanned_Debug C$:/Users/starw
 
 
 #############################################
-# Link the executable c.exe
+# Link the executable C:\Users\Strider\Documents\School\Programming\Programming\3515\c\c.exe
 
-build c.exe: C_EXECUTABLE_LINKER__c_Debug CMakeFiles/c.dir/main.c.obj
+build C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/c.exe: C_EXECUTABLE_LINKER__c_Debug CMakeFiles/c.dir/main.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\c.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = c.exe
+  TARGET_COMPILE_PDB = CMakeFiles\c.dir\
+  TARGET_FILE = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\c.exe
   TARGET_IMPLIB = libc.dll.a
-  TARGET_PDB = c.exe.dbg
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\c.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target AHPA3
@@ -82,11 +85,13 @@ build c.exe: C_EXECUTABLE_LINKER__c_Debug CMakeFiles/c.dir/main.c.obj
 
 build cmake_object_order_depends_target_AHPA3: phony || .
 
-build CMakeFiles/AHPA3.dir/AHPA3/ahpa3.c.obj: C_COMPILER__AHPA3_unscanned_Debug C$:/Users/starw/Documents/School/Programming/Programming/3515/c/AHPA3/ahpa3.c || cmake_object_order_depends_target_AHPA3
+build CMakeFiles/AHPA3.dir/AHPA3/ahpa3.c.obj: C_COMPILER__AHPA3_unscanned_Debug C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA3/ahpa3.c || cmake_object_order_depends_target_AHPA3
   DEP_FILE = CMakeFiles\AHPA3.dir\AHPA3\ahpa3.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\AHPA3.dir
   OBJECT_FILE_DIR = CMakeFiles\AHPA3.dir\AHPA3
+  TARGET_COMPILE_PDB = CMakeFiles\AHPA3.dir\
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA3.pdb
 
 
 # =============================================================================
@@ -94,24 +99,565 @@ build CMakeFiles/AHPA3.dir/AHPA3/ahpa3.c.obj: C_COMPILER__AHPA3_unscanned_Debug 
 
 
 #############################################
-# Link the executable AHPA3.exe
+# Link the executable C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA3.exe
 
-build AHPA3.exe: C_EXECUTABLE_LINKER__AHPA3_Debug CMakeFiles/AHPA3.dir/AHPA3/ahpa3.c.obj
+build C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA3.exe: C_EXECUTABLE_LINKER__AHPA3_Debug CMakeFiles/AHPA3.dir/AHPA3/ahpa3.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\AHPA3.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = AHPA3.exe
+  TARGET_COMPILE_PDB = CMakeFiles\AHPA3.dir\
+  TARGET_FILE = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA3.exe
   TARGET_IMPLIB = libAHPA3.dll.a
-  TARGET_PDB = AHPA3.exe.dbg
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA3.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target MultiArray
+
+
+#############################################
+# Order-only phony target for MultiArray
+
+build cmake_object_order_depends_target_MultiArray: phony || .
+
+build CMakeFiles/MultiArray.dir/testing/multi-array.c.obj: C_COMPILER__MultiArray_unscanned_Debug C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/testing/multi-array.c || cmake_object_order_depends_target_MultiArray
+  DEP_FILE = CMakeFiles\MultiArray.dir\testing\multi-array.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MultiArray.dir
+  OBJECT_FILE_DIR = CMakeFiles\MultiArray.dir\testing
+  TARGET_COMPILE_PDB = CMakeFiles\MultiArray.dir\
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\MultiArray.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MultiArray
+
+
+#############################################
+# Link the executable C:\Users\Strider\Documents\School\Programming\Programming\3515\c\MultiArray.exe
+
+build C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/MultiArray.exe: C_EXECUTABLE_LINKER__MultiArray_Debug CMakeFiles/MultiArray.dir/testing/multi-array.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\MultiArray.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\MultiArray.dir\
+  TARGET_FILE = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\MultiArray.exe
+  TARGET_IMPLIB = libMultiArray.dll.a
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\MultiArray.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target AHPA4
+
+
+#############################################
+# Order-only phony target for AHPA4
+
+build cmake_object_order_depends_target_AHPA4: phony || .
+
+build CMakeFiles/AHPA4.dir/AHPA4/ahpa4.c.obj: C_COMPILER__AHPA4_unscanned_Debug C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA4/ahpa4.c || cmake_object_order_depends_target_AHPA4
+  DEP_FILE = CMakeFiles\AHPA4.dir\AHPA4\ahpa4.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AHPA4.dir
+  OBJECT_FILE_DIR = CMakeFiles\AHPA4.dir\AHPA4
+  TARGET_COMPILE_PDB = CMakeFiles\AHPA4.dir\
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA4.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AHPA4
+
+
+#############################################
+# Link the executable C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA4.exe
+
+build C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA4.exe: C_EXECUTABLE_LINKER__AHPA4_Debug CMakeFiles/AHPA4.dir/AHPA4/ahpa4.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\AHPA4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\AHPA4.dir\
+  TARGET_FILE = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA4.exe
+  TARGET_IMPLIB = libAHPA4.dll.a
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA4.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target AHPA5
+
+
+#############################################
+# Order-only phony target for AHPA5
+
+build cmake_object_order_depends_target_AHPA5: phony || .
+
+build CMakeFiles/AHPA5.dir/AHPA5/ahpa5.c.obj: C_COMPILER__AHPA5_unscanned_Debug C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA5/ahpa5.c || cmake_object_order_depends_target_AHPA5
+  DEP_FILE = CMakeFiles\AHPA5.dir\AHPA5\ahpa5.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AHPA5.dir
+  OBJECT_FILE_DIR = CMakeFiles\AHPA5.dir\AHPA5
+  TARGET_COMPILE_PDB = CMakeFiles\AHPA5.dir\
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA5.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AHPA5
+
+
+#############################################
+# Link the executable C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA5.exe
+
+build C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA5.exe: C_EXECUTABLE_LINKER__AHPA5_Debug CMakeFiles/AHPA5.dir/AHPA5/ahpa5.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\AHPA5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\AHPA5.dir\
+  TARGET_FILE = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA5.exe
+  TARGET_IMPLIB = libAHPA5.dll.a
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA5.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target AHPA6
+
+
+#############################################
+# Order-only phony target for AHPA6
+
+build cmake_object_order_depends_target_AHPA6: phony || .
+
+build CMakeFiles/AHPA6.dir/AHPA6/ahpa6.c.obj: C_COMPILER__AHPA6_unscanned_Debug C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA6/ahpa6.c || cmake_object_order_depends_target_AHPA6
+  DEP_FILE = CMakeFiles\AHPA6.dir\AHPA6\ahpa6.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AHPA6.dir
+  OBJECT_FILE_DIR = CMakeFiles\AHPA6.dir\AHPA6
+  TARGET_COMPILE_PDB = CMakeFiles\AHPA6.dir\
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA6.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AHPA6
+
+
+#############################################
+# Link the executable C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA6.exe
+
+build C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA6.exe: C_EXECUTABLE_LINKER__AHPA6_Debug CMakeFiles/AHPA6.dir/AHPA6/ahpa6.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\AHPA6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\AHPA6.dir\
+  TARGET_FILE = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA6.exe
+  TARGET_IMPLIB = libAHPA6.dll.a
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA6.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Homework1
+
+
+#############################################
+# Order-only phony target for Homework1
+
+build cmake_object_order_depends_target_Homework1: phony || .
+
+build CMakeFiles/Homework1.dir/testing/homework1.c.obj: C_COMPILER__Homework1_unscanned_Debug C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/testing/homework1.c || cmake_object_order_depends_target_Homework1
+  DEP_FILE = CMakeFiles\Homework1.dir\testing\homework1.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Homework1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Homework1.dir\testing
+  TARGET_COMPILE_PDB = CMakeFiles\Homework1.dir\
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\Homework1.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Homework1
+
+
+#############################################
+# Link the executable C:\Users\Strider\Documents\School\Programming\Programming\3515\c\Homework1.exe
+
+build C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/Homework1.exe: C_EXECUTABLE_LINKER__Homework1_Debug CMakeFiles/Homework1.dir/testing/homework1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Homework1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Homework1.dir\
+  TARGET_FILE = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\Homework1.exe
+  TARGET_IMPLIB = libHomework1.dll.a
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\Homework1.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target AHPA7
+
+
+#############################################
+# Order-only phony target for AHPA7
+
+build cmake_object_order_depends_target_AHPA7: phony || .
+
+build CMakeFiles/AHPA7.dir/AHPA7/ahpa7.c.obj: C_COMPILER__AHPA7_unscanned_Debug C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA7/ahpa7.c || cmake_object_order_depends_target_AHPA7
+  DEP_FILE = CMakeFiles\AHPA7.dir\AHPA7\ahpa7.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AHPA7.dir
+  OBJECT_FILE_DIR = CMakeFiles\AHPA7.dir\AHPA7
+  TARGET_COMPILE_PDB = CMakeFiles\AHPA7.dir\
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA7.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AHPA7
+
+
+#############################################
+# Link the executable C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA7.exe
+
+build C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA7.exe: C_EXECUTABLE_LINKER__AHPA7_Debug CMakeFiles/AHPA7.dir/AHPA7/ahpa7.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\AHPA7.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\AHPA7.dir\
+  TARGET_FILE = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA7.exe
+  TARGET_IMPLIB = libAHPA7.dll.a
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA7.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target AHPA8
+
+
+#############################################
+# Order-only phony target for AHPA8
+
+build cmake_object_order_depends_target_AHPA8: phony || .
+
+build CMakeFiles/AHPA8.dir/AHPA8/ahpa8.c.obj: C_COMPILER__AHPA8_unscanned_Debug C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA8/ahpa8.c || cmake_object_order_depends_target_AHPA8
+  DEP_FILE = CMakeFiles\AHPA8.dir\AHPA8\ahpa8.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AHPA8.dir
+  OBJECT_FILE_DIR = CMakeFiles\AHPA8.dir\AHPA8
+  TARGET_COMPILE_PDB = CMakeFiles\AHPA8.dir\
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA8.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AHPA8
+
+
+#############################################
+# Link the executable C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA8.exe
+
+build C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA8.exe: C_EXECUTABLE_LINKER__AHPA8_Debug CMakeFiles/AHPA8.dir/AHPA8/ahpa8.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\AHPA8.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\AHPA8.dir\
+  TARGET_FILE = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA8.exe
+  TARGET_IMPLIB = libAHPA8.dll.a
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA8.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target AHPA9
+
+
+#############################################
+# Order-only phony target for AHPA9
+
+build cmake_object_order_depends_target_AHPA9: phony || .
+
+build CMakeFiles/AHPA9.dir/AHPA9/ahpa9.c.obj: C_COMPILER__AHPA9_unscanned_Debug C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA9/ahpa9.c || cmake_object_order_depends_target_AHPA9
+  DEP_FILE = CMakeFiles\AHPA9.dir\AHPA9\ahpa9.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AHPA9.dir
+  OBJECT_FILE_DIR = CMakeFiles\AHPA9.dir\AHPA9
+  TARGET_COMPILE_PDB = CMakeFiles\AHPA9.dir\
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA9.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AHPA9
+
+
+#############################################
+# Link the executable C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA9.exe
+
+build C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA9.exe: C_EXECUTABLE_LINKER__AHPA9_Debug CMakeFiles/AHPA9.dir/AHPA9/ahpa9.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\AHPA9.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\AHPA9.dir\
+  TARGET_FILE = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA9.exe
+  TARGET_IMPLIB = libAHPA9.dll.a
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA9.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target HW1
+
+
+#############################################
+# Order-only phony target for HW1
+
+build cmake_object_order_depends_target_HW1: phony || .
+
+build CMakeFiles/HW1.dir/HW1/hw1.c.obj: C_COMPILER__HW1_unscanned_Debug C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/HW1/hw1.c || cmake_object_order_depends_target_HW1
+  DEP_FILE = CMakeFiles\HW1.dir\HW1\hw1.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\HW1.dir
+  OBJECT_FILE_DIR = CMakeFiles\HW1.dir\HW1
+  TARGET_COMPILE_PDB = CMakeFiles\HW1.dir\
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\HW1.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target HW1
+
+
+#############################################
+# Link the executable C:\Users\Strider\Documents\School\Programming\Programming\3515\c\HW1.exe
+
+build C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/HW1.exe: C_EXECUTABLE_LINKER__HW1_Debug CMakeFiles/HW1.dir/HW1/hw1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\HW1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\HW1.dir\
+  TARGET_FILE = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\HW1.exe
+  TARGET_IMPLIB = libHW1.dll.a
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\HW1.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Pointers
+
+
+#############################################
+# Order-only phony target for Pointers
+
+build cmake_object_order_depends_target_Pointers: phony || .
+
+build CMakeFiles/Pointers.dir/testing/pointers.c.obj: C_COMPILER__Pointers_unscanned_Debug C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/testing/pointers.c || cmake_object_order_depends_target_Pointers
+  DEP_FILE = CMakeFiles\Pointers.dir\testing\pointers.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Pointers.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pointers.dir\testing
+  TARGET_COMPILE_PDB = CMakeFiles\Pointers.dir\
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\Pointers.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Pointers
+
+
+#############################################
+# Link the executable C:\Users\Strider\Documents\School\Programming\Programming\3515\c\Pointers.exe
+
+build C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/Pointers.exe: C_EXECUTABLE_LINKER__Pointers_Debug CMakeFiles/Pointers.dir/testing/pointers.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Pointers.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Pointers.dir\
+  TARGET_FILE = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\Pointers.exe
+  TARGET_IMPLIB = libPointers.dll.a
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\Pointers.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target AHPA10
+
+
+#############################################
+# Order-only phony target for AHPA10
+
+build cmake_object_order_depends_target_AHPA10: phony || .
+
+build CMakeFiles/AHPA10.dir/AHPA10/ahpa10.c.obj: C_COMPILER__AHPA10_unscanned_Debug C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA10/ahpa10.c || cmake_object_order_depends_target_AHPA10
+  DEP_FILE = CMakeFiles\AHPA10.dir\AHPA10\ahpa10.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AHPA10.dir
+  OBJECT_FILE_DIR = CMakeFiles\AHPA10.dir\AHPA10
+  TARGET_COMPILE_PDB = CMakeFiles\AHPA10.dir\
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA10.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AHPA10
+
+
+#############################################
+# Link the executable C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA10.exe
+
+build C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA10.exe: C_EXECUTABLE_LINKER__AHPA10_Debug CMakeFiles/AHPA10.dir/AHPA10/ahpa10.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\AHPA10.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\AHPA10.dir\
+  TARGET_FILE = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA10.exe
+  TARGET_IMPLIB = libAHPA10.dll.a
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA10.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target AHPA11
+
+
+#############################################
+# Order-only phony target for AHPA11
+
+build cmake_object_order_depends_target_AHPA11: phony || .
+
+build CMakeFiles/AHPA11.dir/AHPA11/ahpa11.c.obj: C_COMPILER__AHPA11_unscanned_Debug C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA11/ahpa11.c || cmake_object_order_depends_target_AHPA11
+  DEP_FILE = CMakeFiles\AHPA11.dir\AHPA11\ahpa11.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AHPA11.dir
+  OBJECT_FILE_DIR = CMakeFiles\AHPA11.dir\AHPA11
+  TARGET_COMPILE_PDB = CMakeFiles\AHPA11.dir\
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA11.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AHPA11
+
+
+#############################################
+# Link the executable C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA11.exe
+
+build C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA11.exe: C_EXECUTABLE_LINKER__AHPA11_Debug CMakeFiles/AHPA11.dir/AHPA11/ahpa11.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\AHPA11.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\AHPA11.dir\
+  TARGET_FILE = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA11.exe
+  TARGET_IMPLIB = libAHPA11.dll.a
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA11.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target AHPA12A
+
+
+#############################################
+# Order-only phony target for AHPA12A
+
+build cmake_object_order_depends_target_AHPA12A: phony || .
+
+build CMakeFiles/AHPA12A.dir/AHPA12/ahpa12a.c.obj: C_COMPILER__AHPA12A_unscanned_Debug C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA12/ahpa12a.c || cmake_object_order_depends_target_AHPA12A
+  DEP_FILE = CMakeFiles\AHPA12A.dir\AHPA12\ahpa12a.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AHPA12A.dir
+  OBJECT_FILE_DIR = CMakeFiles\AHPA12A.dir\AHPA12
+  TARGET_COMPILE_PDB = CMakeFiles\AHPA12A.dir\
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA12A.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AHPA12A
+
+
+#############################################
+# Link the executable C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA12A.exe
+
+build C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA12A.exe: C_EXECUTABLE_LINKER__AHPA12A_Debug CMakeFiles/AHPA12A.dir/AHPA12/ahpa12a.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\AHPA12A.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\AHPA12A.dir\
+  TARGET_FILE = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA12A.exe
+  TARGET_IMPLIB = libAHPA12A.dll.a
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA12A.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target AHPA12B
+
+
+#############################################
+# Order-only phony target for AHPA12B
+
+build cmake_object_order_depends_target_AHPA12B: phony || .
+
+build CMakeFiles/AHPA12B.dir/AHPA12/ahpa12b.c.obj: C_COMPILER__AHPA12B_unscanned_Debug C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA12/ahpa12b.c || cmake_object_order_depends_target_AHPA12B
+  DEP_FILE = CMakeFiles\AHPA12B.dir\AHPA12\ahpa12b.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AHPA12B.dir
+  OBJECT_FILE_DIR = CMakeFiles\AHPA12B.dir\AHPA12
+  TARGET_COMPILE_PDB = CMakeFiles\AHPA12B.dir\
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA12B.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AHPA12B
+
+
+#############################################
+# Link the executable C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA12B.exe
+
+build C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA12B.exe: C_EXECUTABLE_LINKER__AHPA12B_Debug CMakeFiles/AHPA12B.dir/AHPA12/ahpa12b.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\AHPA12B.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\AHPA12B.dir\
+  TARGET_FILE = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA12B.exe
+  TARGET_IMPLIB = libAHPA12B.dll.a
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\AHPA12B.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target HW2
+
+
+#############################################
+# Order-only phony target for HW2
+
+build cmake_object_order_depends_target_HW2: phony || .
+
+build CMakeFiles/HW2.dir/HW2/hw2.c.obj: C_COMPILER__HW2_unscanned_Debug C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/HW2/hw2.c || cmake_object_order_depends_target_HW2
+  DEP_FILE = CMakeFiles\HW2.dir\HW2\hw2.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\HW2.dir
+  OBJECT_FILE_DIR = CMakeFiles\HW2.dir\HW2
+  TARGET_COMPILE_PDB = CMakeFiles\HW2.dir\
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\HW2.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target HW2
+
+
+#############################################
+# Link the executable C:\Users\Strider\Documents\School\Programming\Programming\3515\c\HW2.exe
+
+build C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/HW2.exe: C_EXECUTABLE_LINKER__HW2_Debug CMakeFiles/HW2.dir/HW2/hw2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\HW2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\HW2.dir\
+  TARGET_FILE = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\HW2.exe
+  TARGET_IMPLIB = libHW2.dll.a
+  TARGET_PDB = C:\Users\Strider\Documents\School\Programming\Programming\3515\c\HW2.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\starw\Documents\School\Programming\Programming\3515\c\cmake-build-debug && C:\Users\starw\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Strider\Documents\School\Programming\Programming\3515\c\cmake-build-debug && C:\Users\Strider\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -122,7 +668,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\starw\Documents\School\Programming\Programming\3515\c\cmake-build-debug && C:\Users\starw\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\starw\Documents\School\Programming\Programming\3515\c -BC:\Users\starw\Documents\School\Programming\Programming\3515\c\cmake-build-debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Strider\Documents\School\Programming\Programming\3515\c\cmake-build-debug && C:\Users\Strider\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\Strider\Documents\School\Programming\Programming\3515\c -BC:\Users\Strider\Documents\School\Programming\Programming\3515\c\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -132,9 +678,73 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build AHPA3: phony AHPA3.exe
+build AHPA10: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA10.exe
 
-build c: phony c.exe
+build AHPA10.exe: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA10.exe
+
+build AHPA11: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA11.exe
+
+build AHPA11.exe: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA11.exe
+
+build AHPA12A: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA12A.exe
+
+build AHPA12A.exe: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA12A.exe
+
+build AHPA12B: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA12B.exe
+
+build AHPA12B.exe: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA12B.exe
+
+build AHPA3: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA3.exe
+
+build AHPA3.exe: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA3.exe
+
+build AHPA4: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA4.exe
+
+build AHPA4.exe: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA4.exe
+
+build AHPA5: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA5.exe
+
+build AHPA5.exe: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA5.exe
+
+build AHPA6: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA6.exe
+
+build AHPA6.exe: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA6.exe
+
+build AHPA7: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA7.exe
+
+build AHPA7.exe: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA7.exe
+
+build AHPA8: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA8.exe
+
+build AHPA8.exe: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA8.exe
+
+build AHPA9: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA9.exe
+
+build AHPA9.exe: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA9.exe
+
+build HW1: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/HW1.exe
+
+build HW1.exe: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/HW1.exe
+
+build HW2: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/HW2.exe
+
+build HW2.exe: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/HW2.exe
+
+build Homework1: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/Homework1.exe
+
+build Homework1.exe: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/Homework1.exe
+
+build MultiArray: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/MultiArray.exe
+
+build MultiArray.exe: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/MultiArray.exe
+
+build Pointers: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/Pointers.exe
+
+build Pointers.exe: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/Pointers.exe
+
+build c: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/c.exe
+
+build c.exe: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/c.exe
 
 # =============================================================================
 # Folder targets.
@@ -142,9 +752,9 @@ build c: phony c.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/starw/Documents/School/Programming/Programming/3515/c/cmake-build-debug
+# Folder: C:/Users/Strider/Documents/School/Programming/Programming/3515/c/cmake-build-debug
 
-build all: phony c.exe AHPA3.exe
+build all: phony C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/c.exe C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA3.exe C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/MultiArray.exe C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA4.exe C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA5.exe C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA6.exe C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/Homework1.exe C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA7.exe C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA8.exe C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA9.exe C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/HW1.exe C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/Pointers.exe C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA10.exe C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA11.exe C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA12A.exe C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/AHPA12B.exe C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/HW2.exe
 
 # =============================================================================
 # Built-in targets
@@ -153,14 +763,14 @@ build all: phony c.exe AHPA3.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/starw/Documents/School/Programming/Programming/3515/c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Users/starw/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/starw/Documents/School/Programming/Programming/3515/c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
+build C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Users/Strider/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/Strider/Documents/School/Programming/Programming/3515/c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
 
 
 #############################################
