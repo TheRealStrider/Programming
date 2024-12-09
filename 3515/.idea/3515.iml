@@ -12,6 +12,8 @@
       <sourceFolder url="file://$MODULE_DIR$/rust/AHPA23/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/rust/AHPA24/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/rust/AHPA26/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/HW4/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/AHPA27/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/rust/AHPA17/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust/main/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust/AHPA18/target" />
@@ -22,6 +24,8 @@
       <excludeFolder url="file://$MODULE_DIR$/rust/AHPA23/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust/AHPA24/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust/AHPA26/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/HW4/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/AHPA27/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
